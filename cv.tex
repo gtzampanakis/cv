@@ -1,0 +1,189 @@
+\documentclass [a4paper,11pt]{article}
+%\usepackage{fontspec}
+\pagestyle {empty}
+\usepackage[a4paper,margin=1.10in]{geometry}
+\usepackage[colorlinks=true,urlcolor=black]{hyperref}
+
+\newcommand{\landmark}[1]{{{#1}}}
+\newcommand{\company}[1]{{\textbf{#1}}}
+
+\begin {document}
+
+	\begin {center}
+		\begin {tabular} {c}
+			\textbf {\Large {GIORGOS TZAMPANAKIS}} \\
+			\\
+				\begin {tabular} {rl}
+					\textbf {Date of Birth:} & 20 August 1984 \\
+					\textbf {Address:} & 2, Theotoki Str., Flat 301 \\
+							& 1055, Nicosia, Cyprus \\
+					\textbf {Telephone:} & +357~22~349~783 \\
+					\textbf {Mobile:} & +357~96~683~803 \\
+					\textbf {Email:} & Giorgos.Tzampanakis@gmail.com \\
+					%\textbf {Date of Birth:} & 20th August 1984 \\
+					%\textbf {Address:} & Room 230, Lord Thomson Hall \\
+					%		& Heriot-Watt University \\
+					%		& PO Box 28600, Riccarton \\
+					%		& Edinburgh EH14~4YJ \\
+					%\textbf {Landline:} & 0844~546~5950 \\
+					%\textbf {Email:} & Giorgos.Tzampanakis@gmail.com \\
+				\end {tabular} \\
+		\end {tabular}
+	\end {center}
+
+	\medskip
+
+	\section* {Education}
+		\begin {description}
+		\parindent=20pt
+
+			\item [2009--2010,] \company{Heriot-Watt University, Edinburgh},
+			MSc in Information Technology (Applied Systems) with Distinction
+			(received A grade in all 8 modules).  The title of my MSc Project
+			was ``From Gates to RISC: Digital Logic and Computer Architecture
+			Experiments for an Enhanced Student Learning Experience''.
+
+			%	\begin {table} [ht]
+			%		\begin {center}
+			%			\begin {tabular} {l|l}
+			%				\textbf {Module} & \textbf {Mark} \\
+			%				\hline
+			%				Digital Signal Processing & 72\% \\
+			%				Software Engineering I & 87\% \\
+			%				Digital Design & 82\% \\
+			%				Research Methods & 72\% \\
+			%				Image Processing & 84\% \\
+			%				Software Engineering II & 82\% \\
+			%				Embedded Software & 71\% \\
+			%				MSc Project & 78\% \\
+			%				\hline
+			%			\end {tabular}
+			%		\end {center}
+			%	\end {table}
+
+
+			\item [2003--2009,] \company{Technological Educational Institute
+			of Pireaus, Greece}, Degree in Electrical Engineering with final
+			grade ``Very Well'', 6.74/10. The title of my dissertation was
+			``Analysis of Nonlinear Circuits'' and it presented algorithms and
+			data structures used when analysing such circuits on computer
+			SPICE-like systems.
+
+		 \end {description}
+	
+	\section* {Employment}
+		\begin {description}
+
+			\item [August 2015--now:] \landmark{Python Developer} at
+			\company{Wargaming.net} in Ni\-co\-si\-a, Cyprus, implementing an
+			internal Payment System project.
+
+			\item [September 2014--August 2015:] \landmark{Billing Developer} at
+			\company{Playtech} in Ni\-co\-si\-a, Cyprus.  Playtech is an online
+			gaming company; it was in the process of overhauling its billing
+			process, introducing more automation and interfacing with external
+			billing software. My role was the main software development
+			resource of the billing team.
+
+			\item [September 2013--September 2014:] \landmark{Senior
+			Programming Subject Matter Expert} at \company{Amdocs} in
+			Li\-ma\-ssol, Cyprus.  I was assigned to the Revenue Management
+			division, and more specifically to the Accounts Receivable (AR)
+			module. AR leverages the Weblogic Java EE application server and
+			the Oracle database to manage payments for very large
+			telecommunication companies.
+
+			\item [April 2013--July 2013:] \landmark{Software Developer} at
+			\company{Qobo} in Ni\-co\-si\-a, Cyprus.  Qobo is a startup that
+			aims to offer business software solutions.  The company being in
+			their planning stage, my duties were primarily to evaluate Java
+			frameworks that could be used by the company.
+
+			\item [November 2010--January 2013:] \landmark{Software developer}
+			at \company{CRM.COM} in Ni\-co\-si\-a, Cyprus. CRM.COM is Customer
+			Relationship and Billing Management software for Pay TV, Retail,
+			Energy and other industries. Technologies that I worked with daily
+			included Java EE, SQL, Hibernate, Jasper Reports and many more. 
+			% The CRM.COM software can work with three different databases, IBM
+			% DB2, Oracle and MS SQL Server, thus I interacted with those three
+			% databases on a daily basis.
+
+			\item [June 2008--December 2008:] \landmark{Shift Engineer} at Hospital
+			``Attikon'' in Athens, working for private contractor \company{MELKAT}
+			(fulfilling the 6 months of employment that was a mandatory part of
+			my Electrical Engineering degree).  My duties were mostly to monitor
+			and operate the heating and cooling systems of the hospital via Honeywell's
+			Building Management System.
+
+		\end {description}
+
+	\section* {Skills}
+		\begin {description}
+			\item [Programming languages:] Python, Java, Javascript, C, C++, bash, SQL.
+			\item [Libraries:] JavaEE, jQuery, Hibernate, Django.
+			\item [Database Management Systems:] SQLite, Oracle, MS SQL Server, IBM DB2, MySQL.
+			\item [Web:] HTML, CSS.
+			\item [Mathematical Software:] MATLAB, Numpy, Scipy, R, Mathematica, Octave, Maxima.
+			\item [Operating Systems:] Windows, Linux.
+			\item [HDL:] Verilog HDL.
+			\item [Document Preparation:] \LaTeX , Office, OpenOffice.org.
+		\end {description}
+
+	% \section* {Languages}
+	% 		\begin {description}
+	% 			\item [Greek:] Native.
+	% 			\item [English:] Fluent.
+	% 		\end {description}
+
+	\section* {Code Samples / Released Software}
+		\begin {itemize}
+
+			\item Code samples can be found at \url{https://github.com/gtzampanakis}.
+
+			\item A Python implementation of the FastSS string similarity
+			calculation algorithm. It is the first Python implementation of the
+			algorithm. Available (along with source code) at
+			\url{http://pypi.python.org/pypi/fastss}.
+
+			\item Downloads URLs utilising a compressed disk cache. Ideal for
+			use in writing web scrapers. Available (along with source code) at
+			\url{http://pypi.python.org/pypi/downloader}.
+
+		\end {itemize}
+
+	\section* {Websites}
+		\begin {description}
+			\item [\url{www.bgtrain.com}:] A backgammon training application;
+			users are given position problems and their answers are evaluated
+			against the computer analysis, which is provided by the GNU
+			Backgammon engine.  The system subsequently uses a user's answer
+			history to pick problems close to the his/hers playing strength.
+			Also features a comments system and a leaderboard. Developed from
+			scratch using Python and MySQL.
+			\item [\url{www.statsfair.com}:] Regularly and automatically
+			updated statistical ratings for the games of tennis and snooker.
+			Playing strength can be plotted against time. Estimates of the win
+			probability for each user-selected pair of players are also
+			provided. A section of the website provides a live odds feed from a
+			large bookmaker. Developed from scratch using Python and SQLite.
+		\end {description}
+
+
+	% \section* {Research}
+	% 	\begin {itemize}
+	% 		\item My primary research interest is predictive statistical modelling,
+	% 		particularly via the method of paired comparisons.
+	% 	\end {itemize}
+
+
+	\section* {Background}
+		\begin {itemize}
+			\item My nationality is Greek and I come from Athens.
+			\item My native language is Greek; my English is fluent.
+			\item As a Greek citizen I can travel and work freely within the EU.
+			\item I greatly enjoy working in problems that combine Engineering,
+			Mathematics and Programming, especially Digital Signal Processing,
+			Control Systems and Artificial Intelligence.
+		\end {itemize}
+
+\end {document}
